@@ -23,8 +23,8 @@ Resources:
       Tags:
         - Key: Name
           Value: amr-cfn        
-      	- Key: Env
-      	  Value: Prod
+      	- Key: Backup
+      	  Value: "yes"
       SecurityGroups:
         - !Ref securityGroup
       UserData:
