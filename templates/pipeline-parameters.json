@@ -1,0 +1,12 @@
+[
+  {
+    "ParameterKey": "RepositoryOwner",
+    "ParameterValue": "Amrendra08/amr-cfn"
+    // replace with the owner of the repository on Github containing the templates to deploy
+  },
+  {
+    "ParameterKey": "GithubAccessToken",
+    "ParameterValue": "152f42fcfd8a4a7ebc7a95635e25eb4aad6039f4"
+    // replace with a personal access token from your account on Github
+  }
+]
