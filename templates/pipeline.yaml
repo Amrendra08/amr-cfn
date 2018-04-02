@@ -7,10 +7,11 @@ Parameters:
   RepositoryName:
     Description: The repository on Github to deploy from
     Type: String
-  #  Default: the-cf-workshop
+    Default: amr-cfn
   RepositoryOwner:
     Description: Account or organisation that owns the repository on Github
     Type: String
+    Default: Amrendra08
   GithubAccessToken:
     Description: Personal access token generated for Github
     Type: String
