@@ -22,7 +22,9 @@ Resources:
       KeyName: amrendra-ohio-key  
       Tags:
         - Key: Name
-          Value: amr-cfn        
+          Value: amr-cfn
+        - Key: Environment
+          Value: dev        
       SecurityGroups:
         - !Ref securityGroup
       UserData:
