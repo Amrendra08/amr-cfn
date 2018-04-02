@@ -22,9 +22,9 @@ Resources:
       KeyName: amrendra-ohio-key  
       Tags:
         - Key: Name
-          Value: amr-cfn        
-      	- Key: Backup
-      	  Value: "yes"
+          Value: amr-cfn
+        - Key: Backup
+          Value: 'yes'
       SecurityGroups:
         - !Ref securityGroup
       UserData:
